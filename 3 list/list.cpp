@@ -132,6 +132,7 @@ int main() {
 
     TEST_LIST(linkedList);
     TEST_LIST(circularLinkedList);
+    
     return 0;
 }
 

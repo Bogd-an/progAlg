@@ -1,0 +1,5 @@
+*.exe
+*.docx
+*.pdf
+*.code-workspace
+.vscode

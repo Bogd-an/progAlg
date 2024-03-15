@@ -117,7 +117,7 @@ public:
 #define TEST_LIST(name) \
 for(int i=5; i>0; i--) name.insertNode(i);\
     dataNodeNext3 = name.searchNode(3)->next->data;\
-    cout << #name << " node 3 next node - " << dataNodeNext3  << std::endl;\
+    cout << #name << " node 3 next node - " << dataNodeNext3  << endl;\
     name.printList();\
     name.deleteNode(1);\
     name.deleteNode(5);\
@@ -132,7 +132,7 @@ int main() {
 
     TEST_LIST(linkedList);
     TEST_LIST(circularLinkedList);
-    
+
     return 0;
 }
 
